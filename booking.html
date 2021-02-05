@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Charity</title>
+  <link rel="stylesheet" href="booking.css">
+  <link rel="icon" href="images/charity2.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6540122581.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="Top-container">
+
+
+    <div class="logo">
+      <img class="pic" src="images/charity2.png" alt="charity">
+      <h1 class="brand">HELPING THOSE IN NEED </h1>
+
+    </div>
+
+    <a href="#" class="myButton">Make a donation</a>
+
+    <div class="top-nav">
+      <a href="index.html">Home </a>
+      <a href="#">Donate </a>
+      <div class="dropdown">
+        <button class="dropbtn">Halls</button>
+        <div class="drop">
+          <a href="halls.html">Availability</a>
+          <a href="booking.html">Booking</a>
+        </div>
+      </div>
+
+      <a href="#">Contact us</a>
+      <input type="text" placeholder="Search..">
+
+
+    </div>
+  </div>
+
+  <div class="Middle-container">
+    <h1>Booking</h1>
+
+    <form class="book">
+      <p>
+        Title:
+        <input type="radio" name=" vic" value="" />Mr
+        <input type="radio" name=" vic" value="" />Mrs
+        <input type="radio" name=" vic" value="" />Miss
+      </p>
+
+      <br />
+
+      <label>Name*:</label> <input type="text" required />
+      <br />
+      <br />
+      <label>Email*:</label> <input type="email" required />
+      <br />
+      <br />
+      <label>Phone:</label> <input type="tel" required />
+      <br>
+      <br>
+      <label>Halls*:</label>
+      <select required>
+        <option value="none"></option>
+        <option value="Hall1">Northope Hall</option>
+        <option value="Hall2">Buile Hill Park Hall</option>
+        <option value="Hall3">Brookfield Hall</option>
+        <option value="Hall4">Eccles Town Hall</option>
+        <option value="Hall5">St Luke's Parish Hall</option>
+
+      </select>
+      <br />
+      <br />
+      <label>Date*:</label>
+      <input type="date" name="date" required>
+      <br>
+      <br>
+      <fieldset class="field">
+        <legend>Extras</legend>
+
+        <input type="radio" name="chair" value="" /> Wheelchair Access
+        <br>
+        <br>
+        <input type="radio" name="chair" value="" /> No Extras
+      </fieldset>
+      <input type="checkbox" required /> <label>I agree to the <u style="color:blue">terms and conditions</u></label>
+      <br />
+      <br />
+      <button>Book</button>
+    </form>
+  </div>
+
+  <div class="Bottom-container">
+
+  </div>
+
+</body>
+
+</html>

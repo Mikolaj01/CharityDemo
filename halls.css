@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: dotted #9d0191 8px;
+  border-bottom: none;
+  width: 8%;
+  margin: 50px auto;
+}
+
+.Top-container {
+  padding-top: 50px;
+  background-color: white;
+  display: block;
+}
+
+/* Logo */
+.pic {
+  height: 130px;
+  width: 180px;
+  float: left;
+  position: relative;
+  top: -20px;
+  left: 70px
+}
+
+/* Main Title */
+.brand {
+  color: #9d0191;
+  font-family: Roboto;
+  position: relative;
+  text-align: center;
+  right: 80px;
+  margin: 0px 0px;
+}
+
+/* Donation Button base code taken from https://www.bestcssbuttongenerator.com/ the code was adapted to my preference. */
+.myButton {
+  position: relative;
+  float: right;
+  right: 40px;
+  top: -40px;
+  box-shadow: 0px 0px 0px 2px #fff200;
+  background: linear-gradient(to bottom, #fff200 5%, #fff200 100%);
+  background-color: #fff200;
+  border-radius: 10px;
+  border: 1px solid #fff200;
+  display: inline-block;
+  color: #9d0191;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #fff200;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #fff200 5%, #fff200 100%);
+  background-color: #fff200;
+}
+
+.myButton:active {
+  position: relative;
+  bottom: 1px;
+}
+
+/* Navigation Bar and search bar base code taken from https://www.w3schools.com/howto/howto_css_searchbar.asp
+I adapted the code so it is formatted properly and looks the way I desire  */
+.top-nav {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #9d0191;
+  overflow: hidden;
+  clear: both;
+  padding-left: 50px;
+}
+
+.top-nav a {
+  float: left;
+  left: 100px;
+  padding: 20px 25px 20px 20px;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.top-nav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+.top-nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-right: 39px;
+}
+
+/* Dropdown Container base code taken from https://www.w3schools.com/css/css_dropdowns.asp then adapted to suit my website*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Dropdown content  */
+.drop {
+  display: none;
+  position: absolute;
+  background-color: #9d0191;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.drop a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .drop {
+  display: block;
+}
+
+/* Main title for halls page */
+.title {
+  font-family: Roboto;
+  color: #9d0191;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.sub {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  color: #393e46;
+  margin-left: 8%;
+  margin-right: 30%
+}
+
+/* The images for charity halls */
+.Halls {
+  margin-left: 8%;
+}
+
+/*  Similar code from previous button. */
+.Button2 {
+  margin-top: 3%;
+  float: left;
+  box-shadow: 0px 0px 0px 2px #9d0190;
+  background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
+  background-color: #9d0190;
+  border-radius: 10px;
+  border: 1px solid #8a007f;
+  display: inline-block;
+  color: #fff200;
+  font-family: Roboto;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #9d0190;
+}
+
+.Button2:hover {
+  background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
+  background-color: #9d0190;
+}
+
+.Button2:active {
+  position: relative;
+  bottom: 1px;
+}
+
+/* The h2 for the halls availability */
+.name {
+  display: inline-block;
+  margin-top: 60px;
+  font-family: Roboto;
+  color: #9d0191;
+}
+
+.description {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+  color: #393e46;
+  width: 80%;
+}
+
+.North {
+  float: left;
+  margin-top: -30px;
+  margin-bottom: 3%;
+}
+
+.num1 {
+  float: left;
+  margin-top: 5%;
+  margin-right: 3%;
+  clear: both;
+}
+
+.num2 {
+  float: left;
+  margin-top: 5%;
+  margin-right: 3%;
+  clear: both;
+}
+
+.Buile {
+  float: left;
+  margin-bottom: 3%;
+}
+
+.num3 {
+  float: left;
+  margin-top: 5%;
+  margin-right: 3%;
+  clear: both;
+}
+
+.Brook {
+  float: left;
+  margin-bottom: 3%;
+}
+
+.num4 {
+  float: left;
+  margin-top: 5%;
+  margin-right: 3%;
+  clear: both;
+}
+
+.Eccles {
+  float: left;
+  margin-bottom: 3%;
+}
+
+.num5 {
+  float: left;
+  margin-top: 5%;
+  margin-right: 3%;
+  clear: both;
+}
+
+.Parish {
+  float: left;
+  margin-bottom: 3%;
+}
+
+/* Container for the Footer */
+.Bottom-container {
+  padding-top: 10%;
+  clear: both;
+}
+
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #9d0191;
+}
+
+.fab {
+  padding-right: 2%;
+}
+
+.copy {
+  font-family: Montserrat;
+}
