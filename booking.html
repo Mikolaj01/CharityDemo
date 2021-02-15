@@ -21,11 +21,11 @@
 
     </div>
 
-    <a href="#" class="myButton">Make a donation</a>
+    <a href="fund.html" class="myButton">Make a donation</a>
 
     <div class="top-nav">
       <a href="index.html">Home </a>
-      <a href="#">Donate </a>
+      <a href="fund.html">Donate </a>
       <div class="dropdown">
         <button class="dropbtn">Halls</button>
         <div class="drop">
@@ -40,12 +40,12 @@
 
     </div>
   </div>
-
+  <!-- Booking form which allows customers to enter their personal info -->
   <div class="Middle-container">
     <h1>Booking</h1>
 
     <form class="book">
-      <p>
+      <p class="par">
         Title:
         <input type="radio" name=" vic" value="" />Mr
         <input type="radio" name=" vic" value="" />Mrs
@@ -54,17 +54,17 @@
 
       <br />
 
-      <label>Name*:</label> <input type="text" required />
+      <label>Name*:</label> <input class="lab" type="text" required />
       <br />
       <br />
-      <label>Email*:</label> <input type="email" required />
+      <label>Email*:</label> <input class="lab" type="email" required />
       <br />
       <br />
-      <label>Phone:</label> <input type="tel" required />
+      <label>Phone:</label> <input class="lab" type="tel" required />
       <br>
       <br>
       <label>Halls*:</label>
-      <select required>
+      <select class="lab" required>
         <option value="none"></option>
         <option value="Hall1">Northope Hall</option>
         <option value="Hall2">Buile Hill Park Hall</option>
@@ -76,7 +76,7 @@
       <br />
       <br />
       <label>Date*:</label>
-      <input type="date" name="date" required>
+      <input class="lab" type="date" name="date" required>
       <br>
       <br>
       <fieldset class="field">
@@ -87,14 +87,57 @@
         <br>
         <input type="radio" name="chair" value="" /> No Extras
       </fieldset>
-      <input type="checkbox" required /> <label>I agree to the <u style="color:blue">terms and conditions</u></label>
+      <input class="lab" type="checkbox" required /> <label>I agree to the <u style="color:blue">terms and conditions</u></label>
       <br />
       <br />
-      <button>Book</button>
+      <button class="Button2">Book</button>
     </form>
+  </div>
+  <!-- Embedded maps which allows customers to find the location of the halls. -->
+  <div class="map1">
+    <h2>Northope Hall</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.80426287971!2d-1.6799161841487198!3d53.68611388005167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bdfa1917f11bb%3A0x14b5329b33286203!2sNorthorpe%20Hall%20Child%20%26%20Family%20Trust!5e0!3m2!1sen!2suk!4v1612707176772!5m2!1sen!2suk"
+      width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <div class="map2">
+    <h2>Buile Hill Park Hall</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3992.19254218877!2d-2.3075064467022255!3d53.490405529766676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae4e328a1417%3A0x31cb6a7e783a2da1!2sBuile%20Hill%20Park%20Hall!5e0!3m2!1sen!2suk!4v1612795964978!5m2!1sen!2suk"
+      width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <div class="map3">
+    <h2>Brookfield Hall</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9480.647439327278!2d-2.528919351612813!3d53.55487801925839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b086690cfac4d%3A0x2c4addd20ff95061!2sBrookfield%20Hall!5e0!3m2!1sen!2suk!4v1612796018045!5m2!1sen!2suk"
+      width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <div class="map4">
+    <h2>Eccles Town Hall</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2023793346943!2d-2.3402752841563963!3d53.48271368000782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487baee919963fdd%3A0x20fa53103bd4ac87!2sEccles%20Town%20Hall!5e0!3m2!1sen!2suk!4v1612796052827!5m2!1sen!2suk"
+      width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+
+  <div class="map5">
+    <h2>St Luke's Parish Hall</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.1387472898755!2d-2.304000784156352!3d53.483850680008025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae44f381dfd3%3A0xda7f1f2a6fdda07e!2sSt%20Luke&#39;s%20Parish%20Hall!5e0!3m2!1sen!2suk!4v1612796086222!5m2!1sen!2suk"
+      width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 
   <div class="Bottom-container">
+    <footer id="footer">
+      <i class="fab fa-twitter logo fa-lg"></i>
+      <i class="fab fa-facebook-f logo fa-lg"></i>
+      <i class="fab fa-instagram logo fa-lg"></i>
+      <i class="fas fa-envelope logo fa-lg"></i>
+      <p class="copy">© Copyright 2021 GoodDeeds</p>
+    </footer>
+
 
   </div>
 

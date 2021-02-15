@@ -3,28 +3,26 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin-top: 3%;
-  text-align: center;
-  font-family: Roboto;
-  color: #9d0191;
+hr {
+  border: solid #9d0191 1px;
+  width: 100%;
+  margin: 30px auto;
 }
 
 h2 {
-  color: #9d0191;
+  position: relative;
+  clear: both;
+  text-align: center;
   font-family: Roboto;
+  color: #8a007f;
+  font-size: 30px;
 }
 
-label {
-  font-family: Montserrat;
-  font-weight: bold;
-}
-
-hr {
-  border: dotted #9d0191 8px;
-  border-bottom: none;
-  width: 8%;
-  margin: 90px auto;
+h3 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  color: #8a007f;
 }
 
 .Top-container {
@@ -162,26 +160,119 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 }
 
 /* Middle Container */
+.title {
+  font-family: Roboto;
+  color: #9d0191;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.par {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #393e46;
+  margin-left: 4%;
+  margin-right: 17%;
+}
+
+/*  Three images all aligned code taken from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+/* Three image containers */
+.column {
+  float: left;
+  width: 27%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+/* Clear floats after image containers */
+.column::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.pic2 {
+  height: 210px;
+  border: 3px solid #8a007f;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* Base code taken from https://www.w3schools.com/howto/howto_css_image_overlay.asp it has been adapted and changed to suit my website and work with my images. */
+.column:hover .pic2 {
+  opacity: 0.3;
+}
+
+.column:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #8a007f;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+  font-family: Montserrat;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 88%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 88%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column:hover .middle2 {
+  opacity: 1;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 88%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column:hover .middle3 {
+  opacity: 1;
+}
+
+/* Youtube video and title */
+.youtube {
+  margin-bottom: 3%;
+  margin-left: 29%;
+}
+
+/* Donation Form */
 .book {
   margin-left: 30%;
   border: 3px solid #9d0191;
   width: 40%;
   text-align: center;
-}
-
-.field {
-  font-family: Montserrat;
-  font-weight: bold;
-  width: 200px;
-  margin: auto;
-  margin-bottom: 1.5%;
+  margin-bottom: 9%;
 }
 
 .lab {
-  margin-bottom: 0.5%;
-}
-
-.par {
   font-family: Montserrat;
   font-weight: bold;
 }
@@ -203,47 +294,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   text-shadow: 0px 1px 0px #9d0190;
 }
 
-/* The formatting of all the maps */
-.map1 {
-  float: left;
-  display: inline-block;
-  position: absolute;
-  top: 41%;
-  margin-left: 1%;
-}
-
-.map2 {
-  float: left;
-  display: inline-block;
-  position: absolute;
-  top: 93%;
-  margin-left: 1%;
-}
-
-.map3 {
-  margin-top: 6%;
-  text-align: center;
-}
-
-.map4 {
-  clear: left;
-  float: right;
-  display: inline-block;
-  position: absolute;
-  right: 1%;
-  top: 42%;
-}
-
-.map5 {
-  clear: left;
-  float: right;
-  display: inline-block;
-  position: absolute;
-  right: 1%;
-  top: 93%;
-}
-
-/* Container for the Footer */
+/* Bottom Container */
 .Bottom-container {
   padding-top: 10%;
   clear: both;
