@@ -24,7 +24,13 @@
     <a href="fund.html" class="myButton">Make a donation</a>
 
     <div class="top-nav">
-      <a href="index.html">Home </a>
+      <div class="dropdown">
+        <button class="dropbutton"><a href="index.html">Home </a></button>
+        <!-- Navigation Bar with the links and dropdown bar -->
+        <div class="drop">
+          <a href="login.html">Login</a>
+        </div>
+      </div>
       <a href="fund.html">Donate </a>
       <div class="dropdown">
         <button class="dropbtn">Halls</button>
@@ -34,7 +40,7 @@
         </div>
       </div>
 
-      <a href="#">Contact us</a>
+      <a href="contact.html">Contact us</a>
       <input type="text" placeholder="Search..">
 
 
@@ -71,32 +77,34 @@
     </div>
 
     <hr>
+    <!-- Embedded youtube video it is not linked to an actual video. -->
     <h2 class="vid">Fundraiser Video</h2>
     <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/yHY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <hr>
+  <!-- Form for donating -->
   <h3>Donate</h3>
   <form class="book">
     <br>
-    <label class="lab">Full Name*:</label>
+    <label class="lab1">Full Name*:</label>
     <input type="text" name="firstname" required>
     <br>
     <br />
-    <label class="lab">Email:</label>
+    <label class="lab2">Email:</label>
     <input type="email" name="email">
     <br>
     <br />
-    <label class="lab">Address*:</label>
-    <input class="lab" type="text" required />
+    <label class="lab3">Address*:</label>
+    <input type="text" required />
 
     <br>
     <br>
-    <label class="lab">Name on Card*:</label>
+    <label class="lab4">Name on Card*:</label>
     <input type="text" name="cardname" required>
     <br>
     <br>
-    <label class="lab">Accepted Cards:</label>
+    <label class="lab5">Accepted Cards:</label>
 
     <i class="fa fa-cc-visa" style="color:navy;"></i>
     <i class="fa fa-cc-amex" style="color:blue;"></i>
@@ -104,22 +112,22 @@
     <i class="fa fa-cc-discover" style="color:orange;"></i>
     <br>
     <br>
-    <label class="lab">Credit card number*:</label>
+    <label class="lab6">Credit card number*:</label>
     <input type="text" name="cardnumber" required>
     <br>
     <br>
-    <label class="lab">Exp Year:</label>
+    <label class="lab7">Exp Year:</label>
     <input type="date" name="date" required>
     <br>
     <br>
-    <label class="lab">CVV:</label>
+    <label class="lab8">CVV:</label>
     <input type="text" name="cvv">
     <br>
     <br>
-    <input type="checkbox" required /> <label class="lab">I agree to the <u style="color:blue">terms and conditions</u></label>
+    <input id="check" type="checkbox" required /> <label class="lab">I agree to the <u style="color:blue">terms and conditions</u></label>
     <br />
     <br />
-    <button class="Button2">Donate</button>
+    <button onclick="donate()" class="Button2">Donate</button>
   </form>
 
   <div class="Bottom-Container">
@@ -132,7 +140,7 @@
     </footer>
   </div>
 
-
+<script src="fund.js" charset="utf-8"></script>
 </body>
 
 </html>

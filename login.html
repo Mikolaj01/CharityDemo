@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Charity</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="login.css">
   <link rel="icon" href="images/charity2.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -48,35 +48,29 @@
   </div>
 
   <div class="Middle-container">
-    <div class="intro">
-      <br>
-      <br>
-      <h1 class="help">We are here to help</h1>
-      <p class="des">Over the 5 years we have helped over 2 million people dealing with many different health issues.
-        <br> With your help and donations we can keep on providing the support to many worldwide.
-      </p>
-      <br>
-      <a href="fund.html" class="Button">Donate Today</a>
-    </div>
-    <img class="smile" src="images/smile.jpg" alt="smile">
-
-    <hr>
 
 
-    <div class="extra">
-      <img class="fund" src="images/Run.jpg" alt="run">
-      <div class="opportunities">
-
-        <h1 class="help">Fundraising Campaigns</h1>
-        <p class="des">There are many ways you can make a difference, from participating in charity runs to doing local cake sales we have a
-          whole host of opportunities that you can take part in to support us and many around the world. </p>
-
+    <div class="second">
+      <!-- Admin login linked to Javascript code -->
+      <h1>Admin Login</h1>
+      <img class="avatar" src="images/avatar.png" alt="avatar">
+      <form id="login" class="book">
         <br>
-        <a href="fund.html" class="Button">Click for more info</a>
-      </div>
+        <label class="uname"><b>Username:</b></label>
+        <input id="loginUname" type="text" placeholder="Enter username" required />
+        <br>
+        <br>
+        <label class="pass"><b>Password:</b></label>
+        <input id="loginPass" type="password" placeholder="Enter Password" required>
+        <br>
+        <br>
+        <button onclick="login()" class="Button2">Login</button>
+      </form>
     </div>
 
+    
   </div>
+
   <!-- Footer displays social media account logos -->
   <div class="Bottom-container">
     <footer id="footer">
@@ -89,6 +83,8 @@
 
 
   </div>
+
+  <script src="login.js" charset="utf-8"></script>
 </body>
 
 </html>

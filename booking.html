@@ -24,7 +24,13 @@
     <a href="fund.html" class="myButton">Make a donation</a>
 
     <div class="top-nav">
-      <a href="index.html">Home </a>
+      <div class="dropdown">
+        <button class="dropbutton"><a href="index.html">Home </a></button>
+        <!-- Navigation Bar with the links and dropdown bar -->
+        <div class="drop">
+          <a href="login.html">Login</a>
+        </div>
+      </div>
       <a href="fund.html">Donate </a>
       <div class="dropdown">
         <button class="dropbtn">Halls</button>
@@ -34,12 +40,13 @@
         </div>
       </div>
 
-      <a href="#">Contact us</a>
+      <a href="contact.html">Contact us</a>
       <input type="text" placeholder="Search..">
 
 
     </div>
   </div>
+
   <!-- Booking form which allows customers to enter their personal info -->
   <div class="Middle-container">
     <h1>Booking</h1>
@@ -81,16 +88,16 @@
       <br>
       <fieldset class="field">
         <legend>Extras</legend>
-
+        <!-- Booking form linked with js to display message when booked. -->
         <input type="radio" name="chair" value="" /> Wheelchair Access
         <br>
         <br>
         <input type="radio" name="chair" value="" /> No Extras
       </fieldset>
-      <input class="lab" type="checkbox" required /> <label>I agree to the <u style="color:blue">terms and conditions</u></label>
+      <input id="check" class="lab" type="checkbox" required /> <label>I agree to the <u style="color:blue">terms and conditions</u></label>
       <br />
       <br />
-      <button class="Button2">Book</button>
+      <button onclick="book()" class="Button2">Book</button>
     </form>
   </div>
   <!-- Embedded maps which allows customers to find the location of the halls. -->
@@ -141,6 +148,7 @@
 
   </div>
 
+  <script src="booking.js" charset="utf-8"></script>
 </body>
 
 </html>

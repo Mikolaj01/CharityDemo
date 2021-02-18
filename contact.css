@@ -7,7 +7,7 @@ hr {
   border: dotted #9d0191 8px;
   border-bottom: none;
   width: 8%;
-  margin: 50px auto;
+  margin: 90px auto;
 }
 
 .Top-container {
@@ -106,7 +106,6 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 .dropdown {
   float: left;
   overflow: hidden;
-
 }
 
 /* Dropdown button */
@@ -120,6 +119,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   font-family: inherit;
   margin: 0;
 }
+
 .dropdown .dropbutton {
   font-size: 16px;
   border: none;
@@ -145,7 +145,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 .drop a {
   float: none;
   color: white;
-  padding: 12px  16px;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -156,32 +156,74 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 }
 
 /* Middle Container */
-/* Main title for halls page */
+.Middle-container {
+  margin-top: 4%;
+  text-align: center;
+}
+
+/* Contact us description */
+.det {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #393e46;
+  font-size: 1rem;
+}
+
+.main {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .title {
   font-family: Roboto;
   color: #9d0191;
-  margin-left: 8%;
-  margin-top: 3%;
 }
 
-.sub {
+.par {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 16px;
   color: #393e46;
-  margin-left: 8%;
-  margin-right: 30%
+  margin-bottom: 2%;
 }
 
-/* The images for charity halls */
-.Halls {
-  margin-left: 8%;
+.second {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+/* Formatting of the text boxes in the form */
+.lab1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -80px;
+}
+
+.lab2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -71px;
+}
+
+.lab3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -40px;
+}
+
+.lab4 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -60px;
 }
 
 /*  Similar code from previous button. */
 .Button2 {
-  margin-top: 3%;
-  float: left;
+  margin-bottom: 2%;
   box-shadow: 0px 0px 0px 2px #9d0190;
   background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
   background-color: #9d0190;
@@ -190,102 +232,13 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   display: inline-block;
   color: #fff200;
   font-family: Roboto;
-  font-size: 19px;
-  padding: 12px 37px;
+  font-size: 14px;
+  padding: 8px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #9d0190;
 }
 
-.Button2:hover {
-  background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
-  background-color: #9d0190;
-}
-
-.Button2:active {
-  position: relative;
-  bottom: 1px;
-}
-
-/* The h2 for the halls availability */
-.name {
-  display: inline-block;
-  margin-top: 60px;
-  font-family: Roboto;
-  color: #9d0191;
-}
-
-/* The description for each of the halls */
-.description {
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 16px;
-  color: #393e46;
-  width: 80%;
-}
-
-/* All of the images and divs for the halls */
-.North {
-  float: left;
-  margin-top: -30px;
-  margin-bottom: 3%;
-}
-
-.num1 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.num2 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Buile {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num3 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Brook {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num4 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Eccles {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num5 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Parish {
-  float: left;
-  margin-bottom: 3%;
-}
-
-/* Container for the Footer */
+/* Bottom Container */
 .Bottom-container {
   padding-top: 10%;
   clear: both;

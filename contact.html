@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Charity</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
   <link rel="icon" href="images/charity2.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
   <div class="Top-container">
 
 
@@ -48,37 +49,45 @@
   </div>
 
   <div class="Middle-container">
-    <div class="intro">
-      <br>
-      <br>
-      <h1 class="help">We are here to help</h1>
-      <p class="des">Over the 5 years we have helped over 2 million people dealing with many different health issues.
-        <br> With your help and donations we can keep on providing the support to many worldwide.
-      </p>
-      <br>
-      <a href="fund.html" class="Button">Donate Today</a>
+    <div class="main">
+      <!-- Contact us introduction -->
+      <h1 class="title">Contact Us</h1>
+      <p class="par">Email us with any questions or feeback or call 07234390653. We would love to hear your queries about our charity and how we could best help you.
+        You also have the choice of sending a letter if it suits you to the address below.</p>
+
+      <h2 class="det">Address: Manchester Good Deeds Charity, Manchester, M13 9NQ</h2>
     </div>
-    <img class="smile" src="images/smile.jpg" alt="smile">
 
-    <hr>
+    <div class="second">
+      <!-- Form that customers can fill in to contact charity -->
+      <h1 class="title">Email Us</h1>
+      <p class="par"> We have team ready to email you back from Monday - Sunday.</p>
 
-
-    <div class="extra">
-      <img class="fund" src="images/Run.jpg" alt="run">
-      <div class="opportunities">
-
-        <h1 class="help">Fundraising Campaigns</h1>
-        <p class="des">There are many ways you can make a difference, from participating in charity runs to doing local cake sales we have a
-          whole host of opportunities that you can take part in to support us and many around the world. </p>
-
+      <form class="book">
         <br>
-        <a href="fund.html" class="Button">Click for more info</a>
-      </div>
-    </div>
+        <label class="lab1">First Name*:</label>
+        <input type="text" name="firstname" required>
+        <br>
+        <br>
+        <label class="lab2">Last Name:</label>
+        <input type="text" />
+        <br>
+        <br>
+        <label class="lab3">Email*:</label>
+        <input type="email" name="email" required>
+        <br>
+        <br>
+        <label class="lab4">Subject:</label>
 
+        <textarea style="height:20px" style="width:80px"></textarea>
+        <br>
+        <br>
+        <button onclick="button()" class="Button2">Send Email</button>
+      </form>
+    </div>
   </div>
-  <!-- Footer displays social media account logos -->
-  <div class="Bottom-container">
+
+  <div class="Bottom-Container">
     <footer id="footer">
       <i class="fab fa-twitter logo fa-lg"></i>
       <i class="fab fa-facebook-f logo fa-lg"></i>
@@ -86,9 +95,9 @@
       <i class="fas fa-envelope logo fa-lg"></i>
       <p class="copy">© Copyright 2021 GoodDeeds</p>
     </footer>
-
-
   </div>
+  <script src="contact.js" charset="utf-8"></script>
 </body>
+
 
 </html>

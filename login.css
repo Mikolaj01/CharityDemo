@@ -7,9 +7,15 @@ hr {
   border: dotted #9d0191 8px;
   border-bottom: none;
   width: 8%;
-  margin: 50px auto;
+  margin: 90px auto;
 }
 
+h1{
+  font-family: Roboto;
+  font-size: 35px;
+  color: #9d0191;
+
+}
 .Top-container {
   padding-top: 50px;
   background-color: white;
@@ -34,6 +40,10 @@ hr {
   text-align: center;
   right: 5%;
   margin: 0px 0px;
+}
+
+.avatar{
+  margin-bottom: 2%;
 }
 
 /* Donation Button base code taken from https://www.bestcssbuttongenerator.com/ the code was adapted to my preference. */
@@ -156,32 +166,40 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 }
 
 /* Middle Container */
-/* Main title for halls page */
-.title {
-  font-family: Roboto;
-  color: #9d0191;
-  margin-left: 8%;
-  margin-top: 3%;
+.Middle-container{
+  text-align: center;
+  margin-top: 8%;
 }
 
-.sub {
+.second {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom:5%;
+}
+
+/* Formatting of the text boxes in the form */
+.uname {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 16px;
-  color: #393e46;
-  margin-left: 8%;
-  margin-right: 30%
+  margin-left: -80px;
+
 }
 
-/* The images for charity halls */
-.Halls {
-  margin-left: 8%;
+.pass {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -72px;
 }
+
+
 
 /*  Similar code from previous button. */
 .Button2 {
-  margin-top: 3%;
-  float: left;
+  margin-bottom: 2%;
   box-shadow: 0px 0px 0px 2px #9d0190;
   background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
   background-color: #9d0190;
@@ -190,99 +208,10 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   display: inline-block;
   color: #fff200;
   font-family: Roboto;
-  font-size: 19px;
-  padding: 12px 37px;
+  font-size: 14px;
+  padding: 8px 25px;
   text-decoration: none;
   text-shadow: 0px 1px 0px #9d0190;
-}
-
-.Button2:hover {
-  background: linear-gradient(to bottom, #9d0190 5%, #9d0190 100%);
-  background-color: #9d0190;
-}
-
-.Button2:active {
-  position: relative;
-  bottom: 1px;
-}
-
-/* The h2 for the halls availability */
-.name {
-  display: inline-block;
-  margin-top: 60px;
-  font-family: Roboto;
-  color: #9d0191;
-}
-
-/* The description for each of the halls */
-.description {
-  font-family: Montserrat;
-  font-weight: bold;
-  font-size: 16px;
-  color: #393e46;
-  width: 80%;
-}
-
-/* All of the images and divs for the halls */
-.North {
-  float: left;
-  margin-top: -30px;
-  margin-bottom: 3%;
-}
-
-.num1 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.num2 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Buile {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num3 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Brook {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num4 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Eccles {
-  float: left;
-  margin-bottom: 3%;
-}
-
-.num5 {
-  float: left;
-  margin-top: 5%;
-  margin-right: 3%;
-  clear: both;
-}
-
-.Parish {
-  float: left;
-  margin-bottom: 3%;
 }
 
 /* Container for the Footer */

@@ -123,6 +123,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 .dropdown {
   float: left;
   overflow: hidden;
+
 }
 
 /* Dropdown button */
@@ -131,9 +132,19 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   border: none;
   outline: none;
   color: white;
-  padding: 20px 16px;
+  padding: 20px 16px 20px 16px;
   background-color: inherit;
   font-family: inherit;
+  margin: 0;
+}
+.dropdown .dropbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  padding-left: 0px;
   margin: 0;
 }
 
@@ -142,7 +153,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   display: none;
   position: absolute;
   background-color: #9d0191;
-  min-width: 160px;
+  min-width: 115px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -151,7 +162,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
 .drop a {
   float: none;
   color: white;
-  padding: 12px 16px;
+  padding: 12px  16px;
   text-decoration: none;
   display: block;
   text-align: left;

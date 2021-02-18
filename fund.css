@@ -129,9 +129,20 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   border: none;
   outline: none;
   color: white;
-  padding: 20px 16px;
+  padding: 20px 16px 20px 16px;
   background-color: inherit;
   font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .dropbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  padding-left: 0px;
   margin: 0;
 }
 
@@ -140,7 +151,7 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   display: none;
   position: absolute;
   background-color: #9d0191;
-  min-width: 160px;
+  min-width: 115px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -270,6 +281,53 @@ I adapted the code so it is formatted properly and looks the way I desire  */
   width: 40%;
   text-align: center;
   margin-bottom: 9%;
+}
+
+.lab1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -40px;
+}
+
+.lab2 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+.lab3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -25px;
+}
+
+.lab4 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -75px;
+}
+
+.lab5 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -170px;
+}
+
+.lab6 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -110px;
+}
+
+.lab7 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: -50px;
+}
+
+.lab8 {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 .lab {
